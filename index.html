@@ -1,9 +1,17 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Testing</title>
-    </head>
-    <body>
-        <p>Hello.</p>
-    </body>
-</html>
+---
+layout: default
+---
+
+Hiya.
+
+{% if site.data.news %}
+<div class="resume-item" style="clear: both;">
+	<ul class="news-items">
+	{% for item in site.data.news %}
+	  <li class="news-item">
+	    <span class="news-date">{{ item.date }}</span><span class="news-comment">{{ item.comment }}</span>
+	  </li><br>
+	{% endfor %}
+	</ul>
+</div>
+{% endif %}

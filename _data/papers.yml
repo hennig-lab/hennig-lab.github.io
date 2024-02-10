@@ -1,0 +1,10 @@
+2021:
+  -
+    title: "Learning is shaped by abrupt changes in neural engagement"
+    authors: "JA Hennig, ..., AP Batista*, SM Chase*, BM Yu*"
+    journal: "Nature Neuroscience"
+    volume: "1546-1726"
+    year: 2021
+    paper_url: "https://www.nature.com/articles/s41593-021-00822-8"
+    code_url: 'https://github.com/mobeets/neural-engagement'
+    press_url: 'https://engineering.cmu.edu/news-events/news/2021/03/29-engagement-learning.html'

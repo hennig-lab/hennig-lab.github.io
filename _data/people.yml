@@ -1,0 +1,21 @@
+trainees:
+# - name: "Jay Hennig"
+#   # image_path: "static/images/people/jhennig.jpg"
+#   # image_path_moustache: "static/images/people/jhennig2.jpg"
+#   interests: "Machine Learning Tools for Analyzing Neural Population Activity; Neural Computation and Motor Control"
+#   type: "PhD student"
+#   url: "https://mobeets.github.io/me/"
+
+affiliated:
+# - name: "Prof. Agustin Gutierrez Galvez (on sabbatical)"
+#   image_path: "static/images/people/agustin.jpg"
+#   image_path_moustache: "static/images/people/agustin2.jpg"
+
+alumni:
+# - name: "Xiao Zhou"
+#   affiliation: "PhD (Trexquant, New York NY)"
+#   image_path: "static/images/people/xiao.jpg"
+#   image_path_moustache: "static/images/people/xiao2.jpg"
+#   interests: "Neural mechanisms of skill learning"
+#   type: "PhD student"
+#   url: ""

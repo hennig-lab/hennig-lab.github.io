@@ -1,0 +1,67 @@
+
+.year-buttons {
+  text-align: center;
+  max-width: 450px;
+  margin: auto;
+}
+
+.year-button {
+  @include border-radius(5px);
+  //background-color: #efefef;
+  border: 1px solid;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  margin: 0.5rem auto;
+  margin-right: 0.2em;
+  padding: 0.3rem;
+  //width: 220px;
+  font-size: small;
+  @include sans_light;
+  color: #333;
+  //line-height: 35px;
+  @include transition(all .2s ease);
+
+  &:hover {
+    background-color: #4287f5;
+    color: #fff;
+  }
+}
+
+.papers-list {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.paper-item {
+  @include sans_light;
+  margin-top: 1.5em;
+  margin-left: 0;
+  padding: 1em;
+  border-radius: 10px;
+  border: 1px #eee;;
+  border-style: solid;
+}
+
+.paper-title {
+  @include sans_regular;
+  clear: both;
+  font-size: 1.3rem;
+}
+
+
+.paper-url {
+  font-size: small;
+  text-decoration: none;
+  color: #333;
+  
+  padding: 0.2rem;
+  margin-right: 0.2em;
+  @include border-radius(9px);
+  border: 1px solid #888;
+  &:hover {
+    background-color: #333;
+    color: #eee;
+  }
+}
