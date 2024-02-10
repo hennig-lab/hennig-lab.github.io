@@ -2,6 +2,7 @@
 layout: page
 title: Publications
 permalink: /publications/
+show_title: true
 ---
 
 <p>For an up-to-date list of publications, see <a href="https://scholar.google.com/citations?user=Tyl65TEAAAAJ&hl=en">Google Scholar</a>.<br/>Below, "*" denotes joint authorship.</p>
