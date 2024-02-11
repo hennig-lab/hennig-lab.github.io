@@ -16,7 +16,7 @@
   margin-right: 0.2em;
   padding: 0.3rem;
   //width: 220px;
-  font-size: small;
+  font-size: 0.9rem;
   @include sans_light;
   color: #333;
   //line-height: 35px;
@@ -45,9 +45,8 @@
 }
 
 .paper-title {
-  @include sans_regular;
+  @include sans_kindabold;
   clear: both;
-  font-size: 1.3rem;
 }
 
 
@@ -68,22 +67,34 @@
 
 
 .paper-link {
-    font-size: small;
-    text-decoration: none;
-    border-bottom: dotted 1px black;
+  font-size: small;
+  text-decoration: none;
+  border-bottom: dotted 1px black;
 }
 .paper-content {
-    clear: both;
-    overflow: auto;
-    padding-top: 1em;
+  clear: both;
+  overflow: auto;
+  padding-top: 1em;
 }
 .paper-image {
-    margin-right: 1em;
-    float: left;
-    padding-bottom: 1em;
+  margin-right: 1em;
+  float: left;
+  padding-bottom: 1em;
 }
 .paper-brief {
-    text-align: justify;
-    float: left;
-    display: contents;
+  text-align: justify;
+  float: left;
+  display: contents;
+  font-size: 0.95rem;
+}
+.paper-journal {
+  font-size: 0.95rem;
+}
+.paper-authors {
+  font-size: 0.95rem;
+  color: $gray;
+}
+
+.paper-authors b {
+  @include sans_kindabold;
 }

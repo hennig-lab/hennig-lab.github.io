@@ -27,11 +27,11 @@ html {
 }
 
 body {
+  @include sans;
   background: #fff;
-  font-family: -system-ui, -apple-system, BlinkMacSystemFont, 'Open Sans', "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   color: #404040;
   line-height: 1.7;
-  font-weight: 300;
+  font-weight: 350;
   font-size: 18px;
   height: 100%;
 }
