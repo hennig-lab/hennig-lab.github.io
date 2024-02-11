@@ -65,3 +65,25 @@
     color: #eee;
   }
 }
+
+
+.paper-link {
+    font-size: small;
+    text-decoration: none;
+    border-bottom: dotted 1px black;
+}
+.paper-content {
+    clear: both;
+    overflow: auto;
+    padding-top: 1em;
+}
+.paper-image {
+    margin-right: 1em;
+    float: left;
+    padding-bottom: 1em;
+}
+.paper-brief {
+    text-align: justify;
+    float: left;
+    display: contents;
+}

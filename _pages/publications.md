@@ -5,7 +5,7 @@ permalink: /publications/
 show_title: true
 ---
 
-<p>For an up-to-date list of publications, see <a href="https://scholar.google.com/citations?user=Tyl65TEAAAAJ&hl=en">Google Scholar</a>.<br/>Below, "*" denotes joint authorship.</p>
+<p>For an up-to-date list of publications, see <a href="https://scholar.google.com/citations?user=Tyl65TEAAAAJ&hl=en">Google Scholar</a>.<br/>* and + denote joint authorship.</p>
 
 <div class="year-buttons">
 {% for year in site.data.papers %}
@@ -29,6 +29,14 @@ show_title: true
 	    {% if paper.code_url and paper.code_url != "" %}
 	    <a href="{{ paper.code_url }}" class="paper-url">code</a>
 	    {% endif %}
+	    {% if paper.image != nil and paper.image != '' %}
+	    <div class="paper-content">
+			<img src="{{ site.baseurl }}/assets/images/papers/{{ paper.image }}.{{ paper.imagetype }}" width="200px" class="paper-image">
+			{% if paper.briefly != nil and paper.briefly != '' %}
+			<p class="paper-brief">{{ paper.briefly }}</p><br/>
+			{% endif %}
+		</div>
+		{% endif %}
 	  </li><br>
 	{% endfor %}
 	</ul>
