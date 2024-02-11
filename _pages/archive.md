@@ -2,7 +2,6 @@
 layout: page
 permalink: /archive/
 title: Posts Archive
-show_title: true
 ---
 
 <div id="archives">

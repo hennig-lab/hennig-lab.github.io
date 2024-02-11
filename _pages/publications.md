@@ -2,7 +2,6 @@
 layout: page
 title: Publications
 permalink: /publications/
-show_title: true
 ---
 
 <p>For an up-to-date list of publications, see <a href="https://scholar.google.com/citations?user=Tyl65TEAAAAJ&hl=en">Google Scholar</a>.<br/>* and + denote joint authorship.</p>
@@ -24,7 +23,7 @@ show_title: true
   <li class="paper-item">
     <span class="paper-title">{{ paper.title }}</span><br>
     <span class="paper-authors">{{ paper.authors }}</span><br>
-    <span class="paper-journal"><i>{{ paper.journal }}</i> ({{ paper.year }})</span><br>
+    <span class="paper-journal"><i>{{ paper.journal }}</i> ({{ paper.year }})</span>
     <a href="{{ paper.paper_url }}" class="paper-url">link</a>
     {% if paper.code_url and paper.code_url != "" %}
     <a href="{{ paper.code_url }}" class="paper-url">code</a>

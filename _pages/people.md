@@ -2,7 +2,6 @@
 layout: page
 title: People
 permalink: /people/
-show_title: true
 ---
 
 <div class="page-header">

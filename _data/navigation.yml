@@ -6,6 +6,8 @@
   link: '/people'
 - name: Publications
   link: '/publications'
+- name: "Join Us!"
+  link: '/join'
 # - name: Search
 #   link: '/search'
 # - name: Archive

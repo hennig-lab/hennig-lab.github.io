@@ -2,7 +2,6 @@
 layout: page
 permalink: /categories/
 title: Categories
-show_title: true
 ---
 
 

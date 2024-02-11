@@ -1,8 +1,12 @@
 ---
 layout: page
-title: Research
+title: Research Topics
 permalink: /research/
-show_title: true
 ---
 
-TBD.
+## Meta-learning
+
+## Reinforcement learning in the dopamine system
+
+## Emergence of probabilistic representations
+
