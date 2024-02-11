@@ -19,7 +19,6 @@
   </head>
 
   <body>
-    <div id="bar"></div>
     <div class="wrapper-container">
       <div class="wrapper-masthead">
         <div class="container">
@@ -27,17 +26,12 @@
             <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.baseurl }}{{ site.avatar }}" alt="{{ site.title }}" /></a>
 
             <div class="site-info">
-              <h1 class="site-name font-extrabold rainbow-red text-5xl tracking-tighter"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+              <h1 class="site-name font-extrabold rainbow-blue tracking-tighter"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
               <p class="site-description">{{ site.description }}</p> 
             </div>
 
             <nav class="rainbow-blue">
-              <a href="{{ site.baseurl }}/">Home</a>
-              <a href="{{ site.baseurl }}/research">Research</a>
-              <a href="{{ site.baseurl }}/people">People</a>
-              <a href="{{ site.baseurl }}/publications">Publications</a>
-              <!-- <a href="{{ site.baseurl }}/search">Search</a> -->
-              <!-- <a href="{{ site.baseurl }}/archive">Archive</a> -->
+              {% include navigation.html %}
             </nav>
           </header>
         </div>
