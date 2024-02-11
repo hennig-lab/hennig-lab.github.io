@@ -6,9 +6,8 @@ show_title: true
 ---
 
 <div class="page-header">
-	<!-- <img src="static/images/people/Chase.jpg" class="avatar no-print" itemprop="image"> -->
-    <!-- <img src="static/images/people/Chase.jpg" class="avatar no-print" onmouseover="this.src='static/images/people/Chase2.jpg'" onmouseout="this.src='static/images/people/Chase.jpg'" itemprop="image" /> -->
-	<h1 class="header-name" itemprop="name">Jay Hennig, PhD</h1>
+	<img src="{{ site.baseurl }}/assets/images/people/jay.jpg" class="avatar no-print" itemprop="image">
+	<h3 class="header-name" itemprop="name">Jay Hennig, PhD</h3>
 	<!-- <div class="executive-summary" itemprop="description">
 	Associate professor<br/>
 	Neuroscience Institute and Biomedical Engineering, CMU
