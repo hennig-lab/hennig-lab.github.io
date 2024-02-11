@@ -37,7 +37,7 @@ permalink: /publications/
 		{% endif %}
 	</div>
 	{% endif %}
-  </li><br>
+  </li>
 {% endfor %}
 </ul>
 {% endfor %}

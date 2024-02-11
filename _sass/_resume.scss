@@ -31,9 +31,9 @@
     @include sans_light;
     font-size: 2rem;
     text-align: center;
-    letter-spacing: -.15rem;
+    letter-spacing: -.05rem;
     line-height: 1;
-    margin: 1rem 0 0;
+    margin: 1rem 0 0.3rem;
   }
 
   .header-contact-info {
@@ -96,7 +96,7 @@
   .icon-link { display: inline-block;
 
     &:hover .icon path {
-      fill: #333;
+      fill: #555;
       @include transition(all .2s ease);
     }
   }
@@ -141,7 +141,7 @@
   @include transition(all .2s ease);
 
   &:hover {
-    background-color: #333;
+    background-color: #555;
     color: #fff;
   }
 

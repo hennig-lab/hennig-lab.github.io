@@ -7,17 +7,17 @@ permalink: /people/
 <div class="page-header">
 	<img src="{{ site.baseurl }}/assets/images/people/jay.jpg" class="avatar no-print" itemprop="image">
 	<h3 class="header-name" itemprop="name">Jay Hennig, PhD</h3>
-	<!-- <div class="executive-summary" itemprop="description">
-	Associate professor<br/>
-	Neuroscience Institute and Biomedical Engineering, CMU
-	</div> -->
+	<div class="executive-summary" itemprop="description">
+	Assistant professor<br/>
+	Department of Neuroscience, Some University
+	</div>
 
-	<!-- <div class="contact-buttons">
-		<a href="static/pdf/cv.pdf" class="contact-button no-print"><img src="static/icons/icon-cv.png" width="12px;">&nbsp; CV</a>
-		<a href="https://scholar.google.com/citations?user=H-pgq9QAAAAJ&hl=en&oi=ao" class="contact-button no-print"><img src="static/icons/icon-scholar.png" width="20px;">&nbsp; Scholar</a>
-		<a href="http://www.youtube.com/watch?v=R3sbroxIWEA" class="contact-button no-print">Video summary</a>
+	<div class="contact-buttons">
+		<a href="{{ site.baseurl }}/assets/pdf/cv.pdf" class="contact-button no-print"><img src="{{ site.baseurl }}/assets/images/icons/icon-cv.png" width="12px;">&nbsp; CV</a>
+		<a href="https://scholar.google.com/citations?user=H-pgq9QAAAAJ&hl=en&oi=ao" class="contact-button no-print"><img src="{{ site.baseurl }}/assets/images/icons/icon-scholar.png" width="20px;">&nbsp; Scholar</a>
 	</div><br/>
 
+	<!--
 	<div class="header-contact-info">
 	Phone: (412) 268-5512, Email: schase (at) cmu.edu<br/>
 	</div>
@@ -36,7 +36,8 @@ permalink: /people/
 			5000 Forbes Avenue<br/>
 			Pittsburgh, PA 15213<br/>
 		</div>
-	</div> -->
+	</div>
+	-->
 </div>
 
 {% if site.data.people.alumni %}

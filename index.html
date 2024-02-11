@@ -1,9 +1,14 @@
 ---
 layout: default
 ---
-<br>
-<h1 class="rainbow-blue tracking-tighter" style="font-weight: 300;">Hennig Lab</h1>
-<h2 class="rainbow-blue tracking-tighter">Amazing Department, Some University</h2>
+
+<a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.baseurl }}{{ site.avatar }}" alt="{{ site.title }}" /></a>
+
+<div class="site-info">
+  <h1 class="site-name rainbow-blue tracking-tighter" style="text-align: center;"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+  <p class="site-description">{{ site.description }}</p> 
+  <h2 class="rainbow-blue tracking-tighter">Department of Neuroscience, Some University</h2>
+</div>
 
 {% if site.data.news %}
 <div class="resume-item" style="clear: both;">
