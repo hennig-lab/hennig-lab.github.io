@@ -43,8 +43,16 @@ body {
   width: 100%;
 }
 
+@font-face {
+  font-family: "bernhard";
+  src: url("/assets/BernhardGothicURW-Light.woff") format('woff');
+}
+
 h1, h2, h3, h4, h5, h6 {
-  font-family: -system-ui, -apple-system, BlinkMacSystemFont, 'Open Sans', "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  @include sans;
+  
+  //font-family: $helveticaNeue;
+  //font-family: -system-ui, -apple-system, BlinkMacSystemFont, 'Open Sans', "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   color: $darkerGray;
   font-weight: bold;
 
@@ -59,6 +67,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
+  //font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 30px;
   a {
     color: inherit;
@@ -326,11 +335,11 @@ p > img {
   margin: 0;
   //color: $darkGray;
   cursor: pointer;
-  font-family: $helveticaNeue;
+  font-family: $helveticaTitle;
   font-weight: 300;
   font-size: 3rem;
   letter-spacing: 1px;
-  text-align: left;
+  text-align: center;
 
   @include mobile {
     text-align: center;
@@ -346,6 +355,12 @@ p > img {
   @include mobile {
     margin: 3px 0;
   }
+}
+
+.site-department {
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.5rem;
 }
 
 nav {
@@ -504,6 +519,7 @@ nav > a {
 
 .page h1{
   font-family: -system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
   text-align: center;
   font-weight: bold;
   font-kerning: auto;
