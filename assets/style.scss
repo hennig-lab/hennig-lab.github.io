@@ -371,7 +371,7 @@ nav {
   text-align: center;
   margin-top: 9px; // @TODO: Vertically middle align
   font-family: $helveticaNeue;
-  font-size: 18px;
+  //font-size: 18px;
 
   @include mobile {
     float: none;
@@ -382,15 +382,19 @@ nav {
 
   a {
     margin-left: 20px;
-    color: $darkGray;
+    //color: $gray;
     text-align: right;
-    font-weight: 300;
-    letter-spacing: 1px;
+    font-weight: 350;
+    //letter-spacing: 1px;
+    //letter-spacing: -.025em;
 
     @include mobile {
       margin: 0 10px;
       color: $blue;
     }
+  }
+  a:hover {
+    opacity: 0.8;
   }
 }
 
@@ -501,11 +505,6 @@ body:after {
 
 .font-extrabold {
   font-weight: 800;
-}
-
-nav > a {
-  font-weight: 700;
-  letter-spacing: -.025em;
 }
 
 .post h1{
