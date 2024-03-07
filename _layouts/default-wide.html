@@ -1,0 +1,27 @@
+---
+layout: base
+---
+<div class="wrapper-container">
+  <div class="wrapper-masthead">
+    <div class="container">
+      <header class="masthead clearfix">
+        <nav>
+          {% include navigation.html %}
+        </nav>
+      </header>
+    </div>
+  </div>
+
+  <div class="wrapper-main">
+    {{ content }}
+  </div>
+
+  <div class="wrapper-footer">
+    <div class="container">
+      <hr>
+      <footer class="footer">
+        {% include svg-icons.html %}
+      </footer>
+    </div>
+  </div>
+</div>
