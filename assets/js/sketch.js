@@ -413,7 +413,10 @@ function drawScatter(pts, counts, xi, yi) {
   labelScatter(scatterOriginX, scatterOriginY, scatterAxisLength);
 }
 
-function getHighlightedInds() {
+function getHighlightedInds(mouseInds) {
+  if (mouseY < 0 || mouseY > rasterHeight && mouseInds != undefined) {
+    return mouseInds;
+  }
   let mouseInd = floor(map(constrain(mouseY, rasterPosY, rasterPosY+rasterHeight), rasterPosY, rasterPosY+rasterHeight, 0, nNeurons-1));
   if (mouseInd+1 >= nNeurons) {
     mouseInd -= 1;
@@ -480,7 +483,7 @@ function draw() {
   background(bgColor);
   
   // get currently updated mouse inds
-  mouseInds = getHighlightedInds();
+  mouseInds = getHighlightedInds(mouseInds);
   // if mouseInds changed since last time, clear pts
   if (mouseInds[0] != prevMouseInds[0]) {
     pts = [];
