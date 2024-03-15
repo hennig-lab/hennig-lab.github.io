@@ -12,7 +12,7 @@ let spikeColorHighlighted;
 let eventColor;
 let eventColorActive;
 let rectColor;
-let defaultTextSize = 16;
+let defaultTextSize;
 let defaultFont = 'Courier New';
 let showScatter = true;
 
@@ -318,8 +318,6 @@ function setColors() {
 
 function setup() {
   setColors();
-  textSize(defaultTextSize);
-  textFont(defaultFont);
   
   t = 0;
   pts = [];
@@ -347,6 +345,14 @@ function setup() {
     scatterOriginX = cnvWidth/2 - 0.5*scatterAxisLength;
     scatterOriginY = cnvHeight - 3*textSize();
   }
+
+  if (cnvWidth < 400) {
+    defaultTextSize = 14;
+  } else {
+    defaultTextSize = 16;
+  }
+  textSize(defaultTextSize);
+  textFont(defaultFont);
 
   // define raster size based on window size
   binSize = min(200, rasterWidth/2);
@@ -376,13 +382,13 @@ function labelScatter(xo, yo, axisLength) {
   let textPadding = textSize();
 
   textAlign(CENTER, TOP);
-  text('neuron ' + (mouseInds[0]+1).toString() + ' firing rate', xo + axisLength/2, yo + textPadding);
+  text('neuron ' + (mouseInds[0]+1).toString() + ' spike rate', xo + axisLength/2, yo + textPadding);
   
   textAlign(CENTER, BOTTOM);
   push();
   translate(xo - textPadding, yo - axisLength/2);
   rotate(-PI/2);
-  text('neuron ' + (mouseInds[1]+1).toString() + ' firing rate', 0, 0);
+  text('neuron ' + (mouseInds[1]+1).toString() + ' spike rate', 0, 0);
   pop();
 }
 
