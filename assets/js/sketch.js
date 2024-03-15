@@ -448,6 +448,8 @@ function drawTitle() {
   textAlign(CENTER, CENTER);
   textSize(50);
   text('Hennig\nLab', cnvWidth/2, 1.7*rasterHeight/4);
+  textSize(24);
+  text('Department of Neuroscience,\n Some University', cnvWidth/2, 2.8*rasterHeight/4);
   textSize(defaultTextSize);
   textFont(defaultFont);
 }
