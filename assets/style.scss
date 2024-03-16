@@ -137,6 +137,13 @@ table tr td :last-child {
 	margin-bottom: 0;
 }
 
+canvas {
+  /* prevent user highlighting */
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
 /*.detailed .entry p:first-of-type:first-letter {
     float: left;
     margin: 0.13em 0.05em 0 -0.05em;

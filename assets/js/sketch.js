@@ -311,7 +311,7 @@ function setColors() {
     eventColor = 'lightgray';
     eventColorActive = 'black';
   }
-  dotColor = color(255, 0, 0, 30);
+  dotColor = color(255, 0, 0, 15);
   dotColorActive = color(255, 0, 0, 180);
   rectColor = color(255, 0, 0, 100);
 }
