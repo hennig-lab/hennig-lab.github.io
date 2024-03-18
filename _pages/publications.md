@@ -30,13 +30,15 @@ permalink: /publications/
     {% endif %}
     {% if paper.short_name != nil and paper.short_name != '' %}
     <a href="{{ site.baseurl }}/assets/pdfs/papers/{{ paper.short_name }}.pdf" class="paper-url">pdf</a>
+    {% endif %}
     <div class="paper-content">
+    {% if paper.short_name != nil and paper.short_name != '' %}
 		<img src="{{ site.baseurl }}/assets/images/papers/{{ paper.short_name }}.{{ paper.imagetype }}" width="200px" class="paper-image">
+		{% endif %}
 		{% if paper.briefly != nil and paper.briefly != '' %}
 		<p class="paper-brief">{{ paper.briefly }}</p><br/>
-		{% endif %}
+    {% endif %}
 	</div>
-	{% endif %}
   </li>
 {% endfor %}
 </ul>

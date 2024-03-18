@@ -21,10 +21,7 @@
 	width: 150px;
     max-width: 80%;
     overflow: hidden;
-    @include border-radius(3px);
-    //float: left;
-    //margin: 0 auto;
-    //display: block;
+    @include border-radius(10px);
 }
 
 .person-item-interests {

@@ -16,7 +16,10 @@
 
 // page header styles
 
-.page-header { padding: 1.5rem 0;
+.page-header {
+
+  padding-top: 0.2rem;
+  padding-bottom: 0rem;
 
   .avatar {
     width: 150px;

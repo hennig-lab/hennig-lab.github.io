@@ -12,6 +12,18 @@
   #   summary: ""
 2024:
   -
+    title: "Learning alters neural activity to simultaneously support memory and action"
+    authors: "Losey DM, <b>Hennig JA</b>+, Oby ER+, Golub MD, Sadtler PT, Quick KM, Ryu SI, Tyler-Kabara EC, Batista AP*, Yu BM*, Chase SM*"
+    journal: "Current Biology (in press)"
+    volume: ""
+    year: 2024
+    paper_url: "https://www.biorxiv.org/content/10.1101/2022.07.05.498856v1.abstract"
+    code_url: ""
+    short_name: "Losey2024"
+    imagetype: png
+    briefly: "How do we learn new behaviors without disrupting previously learned ones? Using a brain-computer interface (BCI) paradigm, we found that learning a new task altered the neural activity used to perform familiar tasks. This \"memory trace\" did not interfere with the performance of familiar tasks, suggesting a possible mechanism for how we learn new behaviors without impacting previously learned ones."
+    summary: "How are we able to learn new behaviors without disrupting previously learned ones? To understand how the brain achieves this, we used a brain-computer interface (BCI) learning paradigm, which enables us to detect the presence of a memory of one behavior while performing another. We found that learning to use a new BCI map altered the neural activity that monkeys produced when they returned to using a familiar BCI map, in a way that was specific to the learning experience. That is, learning left a “memory trace.” This memory trace co-existed with proficient performance under the familiar map, primarily by altering dimensions of neural activity that did not impact behavior. Such a memory trace could provide the neural underpinning for the joint learning of multiple motor behaviors without interference."
+  -
     title: "The role of prospective contingency in the control of behavior and dopamine signals during associative learning"
     authors: "Qian, L*, Burrell, M*, <b>Hennig, JA</b>, Matias, S, Murthy, VN, Gershman, SJ, & Uchida, N"
     journal: "bioRxiv"
@@ -36,19 +48,6 @@
     imagetype: png
     briefly: "Animals are thought to predict rewards using reinforcement learning (RL). In environments with hidden states, animals may require \"beliefs,\" or probabilistic estimates of the hidden states. We show that such belief-like representations emerge in recurrent neural networks (RNN) trained to perform RL in environments with hidden states."
     summary: "To behave adaptively, animals must learn to predict future reward, or value. To do this, animals are thought to learn reward predictions using reinforcement learning. However, in contrast to classical models, animals must learn to estimate value using only incomplete state information. Previous work suggests that animals estimate value in partially observable tasks by first forming “beliefs”—optimal Bayesian estimates of the hidden states in the task. Although this is one way to solve the problem of partial observability, it is not the only way, nor is it the most computationally scalable solution in complex, real-world environments. Here we show that a recurrent neural network (RNN) can learn to estimate value directly from observations, generating reward prediction errors that resemble those observed experimentally, without any explicit objective of estimating beliefs. We integrate statistical, functional, and dynamical systems perspectives on beliefs to show that the RNN’s learned representation encodes belief information, but only when the RNN’s capacity is sufficiently large. These results illustrate how animals can estimate value in tasks without explicitly estimating beliefs, yielding a representation useful for systems with limited capacity."
-2022:
-  -
-    title: "Learning alters neural activity to simultaneously support memory and action"
-    authors: "Losey DM, <b>Hennig JA</b>+, Oby ER+, Golub MD, Sadtler PT, Quick KM, Ryu SI, Tyler-Kabara EC, Batista AP*, Yu BM*, Chase SM*"
-    journal: "bioRxiv"
-    volume: ""
-    year: 2022
-    paper_url: "https://www.biorxiv.org/content/10.1101/2022.07.05.498856v1.abstract"
-    code_url: ""
-    short_name: ""
-    imagetype: png
-    briefly: ""
-    summary: ""
 2021:
   -
     title: "How learning unfolds in the brain: toward an optimization view"

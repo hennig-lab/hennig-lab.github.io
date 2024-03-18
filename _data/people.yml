@@ -1,10 +1,19 @@
-trainees:
-# - name: "Jay Hennig"
-#   # image_path: "static/images/people/jhennig.jpg"
-#   # image_path_moustache: "static/images/people/jhennig2.jpg"
-#   interests: "Machine Learning Tools for Analyzing Neural Population Activity; Neural Computation and Motor Control"
-#   type: "PhD student"
-#   url: "https://mobeets.github.io/me/"
+
+postdocs:
+- name: "Your Name Here!"
+  image_path: "dog1.png"
+  # image_path_moustache: "static/images/people/jhennig2.jpg"
+  interests: "Meta-learning; Reinforcement Learning; Probabilistic representations; Dopamine activity; Motor control; Machine Learning tools for analyzing neural population activity...? <a href='/join'>Join the lab!</a>"
+  type: "Postdoc"
+  url: ""
+
+grad_students:
+- name: "Or Here?"
+  image_path: "cat1.png"
+  # image_path_moustache: "static/images/people/jhennig2.jpg"
+  interests: "Meta-learning; Reinforcement Learning; Probabilistic representations; Dopamine activity; Motor control; Machine Learning tools for analyzing neural population activity...? <a href='/join'>Join the lab!</a>"
+  type: "PhD student"
+  url: ""
 
 affiliated:
 # - name: "Prof. Agustin Gutierrez Galvez (on sabbatical)"

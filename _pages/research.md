@@ -15,7 +15,9 @@ Some of our past and current work considers learning in the following contexts:
 - neural control of movement in motor cortex, using brain-computer interfaces (BCI)
 - reinforcement learning in the dopamine system, using recurrent neural network (RNN) models
 
-Moving forward, our lab has two additional research interests: __meta-learning__ ("learning to learn"), and __the emergence of probabilistic representations__.
+You can browse our [publications](/publications) for summaries of our work in this area.
+
+Moving forward, our lab has two additional research interests: __meta-learning__ ("learning to learn"), and __the emergence of probabilistic representations__ in the brain.
 
 <!-- ## Meta-learning -->
 
