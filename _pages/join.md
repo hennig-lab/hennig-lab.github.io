@@ -4,7 +4,7 @@ title: "Join Us!"
 permalink: /join/
 ---
 
-We are looking to hire Postdocs, Research Scientists, and PhD students interested in computational neuroscience and learning. We are committed to building an inclusive workplace that prizes curiosity, open communication, and teamwork.
+We are looking to hire Postdocs, Research Scientists, and PhD students interested in computational neuroscience and learning. We are committed to building an inclusive workplace that prizes open communication, teamwork, and curiosity.
 
 ## Postdocs and Research Scientists
 
