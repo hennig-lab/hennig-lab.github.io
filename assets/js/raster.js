@@ -458,7 +458,7 @@ function drawTitle() {
   textSize(50);
   text('Hennig Lab', cnvWidth/2, 1.7*rasterHeight/4);
   textSize(24);
-  text('Department of Neuroscience,\n Some University', cnvWidth/2, 2.8*rasterHeight/4);
+  text('Department of Neuroscience,\n Baylor College of Medicine', cnvWidth/2, 2.8*rasterHeight/4);
   textSize(defaultTextSize);
   textFont(defaultFont);
 }

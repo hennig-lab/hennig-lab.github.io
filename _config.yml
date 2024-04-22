@@ -43,8 +43,8 @@ disqus:
 google_analytics: 
 
 # Your website URL, used for Sitemap.xml and RSS feed
-url: https://www.hennigbrainlab.com
-enforce_ssl: https://www.hennigbrainlab.com
+url: https://www.henniglab.org
+enforce_ssl: https://www.henniglab.org
 baseurl: ""
 
 #

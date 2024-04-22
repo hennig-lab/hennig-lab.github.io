@@ -1,4 +1,11 @@
 
+pi:
+- name: "Jay Hennig, PhD"
+  position: "Assistant Professor"
+  affiliation: "Department of Neuroscience, Baylor College of Medicine"
+  scholar_url: "https://scholar.google.com/citations?user=Tyl65TEAAAAJ&hl=en"
+  image_path: "jay.jpg"
+
 postdocs:
 - name: "Your Name Here!"
   image_path: "dog1.png"

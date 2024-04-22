@@ -14,8 +14,8 @@
   -
     title: "Learning alters neural activity to simultaneously support memory and action"
     authors: "Losey DM, <b>Hennig JA</b>+, Oby ER+, Golub MD, Sadtler PT, Quick KM, Ryu SI, Tyler-Kabara EC, Batista AP*, Yu BM*, Chase SM*"
-    journal: "Current Biology (in press)"
-    volume: ""
+    journal: "Current Biology"
+    volume: "34 (7): 1519-1531"
     year: 2024
     paper_url: "https://www.sciencedirect.com/science/article/pii/S0960982224002987?dgcid=author"
     code_url: ""
@@ -65,7 +65,7 @@
     title: "Learning is shaped by abrupt changes in neural engagement"
     authors: "<b>Hennig JA</b>, Oby ER, Golub MD, Bahureksa LA, Sadtler PT, Quick KM, Ryu SI, Tyler-Kabara EC, Batista AP*, Chase SM*, Yu BM*"
     journal: "Nature Neuroscience"
-    volume: "24(5), 727-736"
+    volume: "24 (5), 727-736"
     year: 2021
     paper_url: "https://www.nature.com/articles/s41593-021-00822-8"
     code_url: 'https://github.com/mobeets/neural-engagement'

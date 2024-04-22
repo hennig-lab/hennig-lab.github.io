@@ -9,15 +9,16 @@ permalink: /people/
 {% endcapture %}
 
 <div class="page-header">
-	<img src="{{ image_dir }}/jay.jpg" class="avatar no-print" itemprop="image">
-	<h3 class="header-name" itemprop="name">Jay Hennig, PhD</h3>
+	{% for person in site.data.people.pi %}
+	<img src="{{ image_dir }}/{{ person.image_path }}" class="avatar no-print" itemprop="image">
+	<h3 class="header-name" itemprop="name">{{ person.name }}</h3>
 	<div class="executive-summary" itemprop="description">
-	Assistant professor<br/>
-	Department of Neuroscience, Some University
+	{{ person.position }}<br/>
+	{{ person.affiliation }}
 	</div>
 	<div class="contact-buttons">
 		<a href="{{ site.baseurl }}/assets/pdf/cv.pdf" class="contact-button no-print"><img src="{{ site.baseurl }}/assets/images/icons/icon-cv.png" width="12px;">&nbsp; CV</a>
-		<a href="https://scholar.google.com/citations?user=Tyl65TEAAAAJ&hl=en" class="contact-button no-print"><img src="{{ site.baseurl }}/assets/images/icons/icon-scholar.png" width="20px;">&nbsp; Scholar</a>
+		<a href="{{ person.scholar_url }}" class="contact-button no-print"><img src="{{ site.baseurl }}/assets/images/icons/icon-scholar.png" width="20px;">&nbsp; Scholar</a>
 	</div>
 	<!--
 	<div class="header-contact-info">
@@ -40,6 +41,7 @@ permalink: /people/
 		</div>
 	</div>
 	-->
+	{% endfor %}
 </div>
 
 {% if site.data.people.postdocs %}
