@@ -12,6 +12,18 @@
   #   summary: ""
 2024:
   -
+    title: "A theory of brain-computer interface learning via low-dimensional control"
+    authors: "Menendez JA, <b>Hennig JA</b>, Golub MD, Oby ER, Sadtler PT, Batista AP, Chase SM, Yu BM, Latham PE"
+    journal: "bioRxiv"
+    volume: ""
+    year: 2024
+    paper_url: "https://www.biorxiv.org/content/10.1101/2024.04.18.589952v1"
+    code_url: ""
+    short_name: ""
+    imagetype: png
+    briefly: ""
+    summary: ""
+  -
     title: "Learning alters neural activity to simultaneously support memory and action"
     authors: "Losey DM, <b>Hennig JA</b>+, Oby ER+, Golub MD, Sadtler PT, Quick KM, Ryu SI, Tyler-Kabara EC, Batista AP*, Yu BM*, Chase SM*"
     journal: "Current Biology"
