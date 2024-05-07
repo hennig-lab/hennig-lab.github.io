@@ -20,9 +20,9 @@ Candidates should have a PhD or equivalent in neuroscience, statistics, computer
 
 ## PhD students
 
-To join the lab as a graduate student, you must first be admitted to a PhD program at Baylor College of Medicine or Rice University. Please consider applying to the [Neuroscience](https://www.bcm.edu/education/graduate-school-of-biomedical-sciences/degree-programs-and-certificates/neuroscience) or [Quantitative & Computational Biosciences](https://www.bcm.edu/education/graduate-school-of-biomedical-sciences/degree-programs-and-certificates/quantitative-computational-biosciences) PhD programs at Baylor College of Medicine, and/or the [Electrical and Computer Engineering](https://www.ece.rice.edu/academics/graduate-programs/graduate-admissions) PhD program at Rice University.
+Before you can join the lab as a graduate student, you must first be admitted to a PhD program at Baylor College of Medicine or Rice University. Please consider applying to the [Neuroscience](https://www.bcm.edu/education/graduate-school-of-biomedical-sciences/degree-programs-and-certificates/neuroscience) or [Quantitative & Computational Biosciences](https://www.bcm.edu/education/graduate-school-of-biomedical-sciences/degree-programs-and-certificates/quantitative-computational-biosciences) PhD programs at Baylor College of Medicine, and/or the [Electrical and Computer Engineering](https://www.ece.rice.edu/academics/graduate-programs/graduate-admissions) PhD program at Rice University. The application period typically begins in September.
 
-Once you have decided to apply to one of these prorgams, email <img src="{{ email_path }}" style="display: inline; width: 25%; min-width: 10em; " /> for rotation opportunities, and include your CV and a sample of your programming code.
+Once you have decided to apply to one of these programs, email <img src="{{ email_path }}" style="display: inline; width: 25%; min-width: 10em; " /> for rotation opportunities, and include your CV and a sample of your programming code.
 
 Prior programming experience is expected, as is a background in mathematics, statistics, computer science, or electrical/biomedical engineering.
 
