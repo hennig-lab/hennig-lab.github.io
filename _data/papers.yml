@@ -12,19 +12,7 @@
   #   summary: ""
 2024:
   -
-    title: "A theory of brain-computer interface learning via low-dimensional control"
-    authors: "Menendez JA, <b>Hennig JA</b>, Golub MD, Oby ER, Sadtler PT, Batista AP, Chase SM, Yu BM, Latham PE"
-    journal: "bioRxiv"
-    volume: ""
-    year: 2024
-    paper_url: "https://www.biorxiv.org/content/10.1101/2024.04.18.589952v1"
-    code_url: ""
-    short_name: ""
-    imagetype: png
-    briefly: ""
-    summary: ""
-  -
-    title: "Learning alters neural activity to simultaneously support memory and action"
+    title: "Learning leaves a memory trace in motor cortex"
     authors: "Losey DM, <b>Hennig JA</b>+, Oby ER+, Golub MD, Sadtler PT, Quick KM, Ryu SI, Tyler-Kabara EC, Batista AP*, Yu BM*, Chase SM*"
     journal: "Current Biology"
     volume: "34 (7): 1519-1531"
@@ -36,6 +24,18 @@
     press_url: "https://engineering.cmu.edu/news-events/news/2024/03/21-honoring-cohon.html"
     briefly: "How do we learn new behaviors without disrupting previously learned ones? Using a brain-computer interface (BCI) paradigm, we found that learning a new task altered the neural activity used to perform familiar tasks. This \"memory trace\" did not interfere with the performance of familiar tasks, suggesting a possible mechanism for how we learn new behaviors without impacting previously learned ones."
     summary: "How are we able to learn new behaviors without disrupting previously learned ones? To understand how the brain achieves this, we used a brain-computer interface (BCI) learning paradigm, which enables us to detect the presence of a memory of one behavior while performing another. We found that learning to use a new BCI map altered the neural activity that monkeys produced when they returned to using a familiar BCI map, in a way that was specific to the learning experience. That is, learning left a “memory trace.” This memory trace co-existed with proficient performance under the familiar map, primarily by altering dimensions of neural activity that did not impact behavior. Such a memory trace could provide the neural underpinning for the joint learning of multiple motor behaviors without interference."
+  -
+    title: "A theory of brain-computer interface learning via low-dimensional control"
+    authors: "Menendez JA, <b>Hennig JA</b>, Golub MD, Oby ER, Sadtler PT, Batista AP, Chase SM, Yu BM, Latham PE"
+    journal: "bioRxiv"
+    volume: ""
+    year: 2024
+    paper_url: "https://www.biorxiv.org/content/10.1101/2024.04.18.589952v1"
+    code_url: ""
+    short_name: ""
+    imagetype: png
+    briefly: ""
+    summary: ""
   -
     title: "The role of prospective contingency in the control of behavior and dopamine signals during associative learning"
     authors: "Qian, L*, Burrell, M*, <b>Hennig, JA</b>, Matias, S, Murthy, VN, Gershman, SJ, & Uchida, N"
