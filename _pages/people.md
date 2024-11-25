@@ -44,6 +44,31 @@ permalink: /people/
 	{% endfor %}
 </div>
 
+{% if site.data.people.ras %}
+<hr>
+<h2>Research Assistants</h2>
+<div class="resume-item">
+	<ul class="person-item-list">
+	{% for person in site.data.people.ras %}
+	  <li class="person-item">
+	  	<span class="person-item-name">
+		    {% if person.url and person.url != "" %}
+		    	<a href="{{ person.url }}">{{ person.name }}</a>
+		    {% else %}
+		    	{{ person.name }}
+		    {% endif %}
+		</span>
+	    <div style="float: left;">
+	    	<img src="{{ image_dir }}/{{ person.image_path }}" class="person-item-img" />
+	    </div>
+	    <span class="person-item-bio">{{ person.bio }}</span>
+	    <div style="float: none; clear: both;"></div>
+	  </li>
+	{% endfor %}
+	</ul>
+</div>
+{% endif %}
+
 {% if site.data.people.postdocs %}
 <hr>
 <h2>Postdocs and Research Scientists</h2>
@@ -61,7 +86,7 @@ permalink: /people/
 	    <div style="float: left;">
 	    	<img src="{{ image_dir }}/{{ person.image_path }}" class="person-item-img" />
 	    </div>
-	    <span class="person-item-interests"><i>Research interests:</i> {{ person.interests }}</span>
+	    <span class="person-item-bio">{{ person.bio }}</span>
 	    <div style="float: none; clear: both;"></div>
 	  </li>
 	{% endfor %}
@@ -86,7 +111,7 @@ permalink: /people/
 	    <div style="float: left;">
 	    	<img src="{{ image_dir }}/{{ person.image_path }}" class="person-item-img" />
 	    </div>
-	    <span class="person-item-interests"><i>Research interests:</i> {{ person.interests }}</span>
+	    <span class="person-item-bio">{{ person.bio }}</span>
 	    <div style="float: none; clear: both;"></div>
 	  </li>
 	{% endfor %}

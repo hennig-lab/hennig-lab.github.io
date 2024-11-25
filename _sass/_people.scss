@@ -19,12 +19,12 @@
 
 .person-item-img {
 	width: 150px;
-    max-width: 80%;
+    max-width: 100%;
     overflow: hidden;
     @include border-radius(10px);
 }
 
-.person-item-interests {
+.person-item-bio {
 	margin-left: 1em;
 	float: left;
 	font-size: small;

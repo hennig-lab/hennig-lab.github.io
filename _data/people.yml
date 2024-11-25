@@ -6,11 +6,18 @@ pi:
   scholar_url: "https://scholar.google.com/citations?user=Tyl65TEAAAAJ&hl=en"
   image_path: "jay.jpg"
 
+ras:
+- name: "Mahliya Dolan"
+  image_path: "mahliya.jpg"
+  bio: "Undergraduate student at Rice University majoring in CAAM, Cognitive Science, and Creative Writing"
+  type: "RA"
+  url: ""
+
 postdocs:
 - name: "Your Name Here!"
   image_path: "dog1.png"
   # image_path_moustache: "static/images/people/jhennig2.jpg"
-  interests: "Meta-learning; Reinforcement Learning; Probabilistic representations; Dopamine activity; Motor control; Machine Learning tools for analyzing neural population activity...? <a href='/join'>Join the lab!</a>"
+  bio: "<i>Interests: </i> Meta-learning; Reinforcement Learning; Probabilistic representations; Dopamine activity; Motor control; Machine Learning tools for analyzing neural population activity...? <a href='/join'>Join the lab!</a>"
   type: "Postdoc"
   url: ""
 
@@ -18,7 +25,7 @@ grad_students:
 - name: "Or Here?"
   image_path: "cat1.png"
   # image_path_moustache: "static/images/people/jhennig2.jpg"
-  interests: "Meta-learning; Reinforcement Learning; Probabilistic representations; Dopamine activity; Motor control; Machine Learning tools for analyzing neural population activity...? <a href='/join'>Join the lab!</a>"
+  bio: "<i>Interests: </i> Meta-learning; Reinforcement Learning; Probabilistic representations; Dopamine activity; Motor control; Machine Learning tools for analyzing neural population activity...? <a href='/join'>Join the lab!</a>"
   type: "PhD student"
   url: ""
 
@@ -32,6 +39,6 @@ alumni:
 #   affiliation: "PhD (Trexquant, New York NY)"
 #   image_path: "static/images/people/xiao.jpg"
 #   image_path_moustache: "static/images/people/xiao2.jpg"
-#   interests: "Neural mechanisms of skill learning"
+#   bio: "Neural mechanisms of skill learning"
 #   type: "PhD student"
 #   url: ""
