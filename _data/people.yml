@@ -9,7 +9,7 @@ pi:
 ras:
 - name: "Mahliya Dolan"
   image_path: "mahliya.jpg"
-  bio: "Undergraduate student at Rice University majoring in CAAM, Cognitive Science, and Creative Writing"
+  bio: "Undergraduate student at Rice University majoring in Applied Math and Cognitive Science, with a minor in Creative Writing"
   type: "RA"
   url: ""
 
