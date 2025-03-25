@@ -10,6 +10,19 @@
   #   imagetype: png
   #   briefly: ""
   #   summary: ""
+2025:
+  -
+    title: "Prospective contingency explains behavior and dopamine signals during associative learning"
+    authors: "Qian, L*, Burrell, M*, <b>Hennig, JA</b>, Matias, S, Murthy, VN, Gershman, SJ, & Uchida, N"
+    journal: "Nature Neuroscience"
+    volume: ""
+    year: 2025
+    paper_url: "https://www.nature.com/articles/s41593-025-01915-4"
+    code_url: ""
+    short_name: "QianBurrell2025"
+    imagetype: png
+    briefly: "Associative learning depends on contingency, the degree to which a stimulus predicts an outcome. Curiously, we found that both anticipatory licking and dopamine responses to a conditioned stimulus decreased when animals received uncued rewards, but remained unchanged when animals instead received additional cued rewards. This finding cannot be explained by traditional accounts of contingency, but we show that it can be explained by temporal difference models with an appropriate state representation."
+    summary: ""
 2024:
   -
     title: "Learning leaves a memory trace in motor cortex"
@@ -31,18 +44,6 @@
     volume: ""
     year: 2024
     paper_url: "https://www.biorxiv.org/content/10.1101/2024.04.18.589952v1"
-    code_url: ""
-    short_name: ""
-    imagetype: png
-    briefly: ""
-    summary: ""
-  -
-    title: "The role of prospective contingency in the control of behavior and dopamine signals during associative learning"
-    authors: "Qian, L*, Burrell, M*, <b>Hennig, JA</b>, Matias, S, Murthy, VN, Gershman, SJ, & Uchida, N"
-    journal: "bioRxiv"
-    volume: ""
-    year: 2024
-    paper_url: "https://www.biorxiv.org/content/10.1101/2024.02.05.578961v1.abstract"
     code_url: ""
     short_name: ""
     imagetype: png
