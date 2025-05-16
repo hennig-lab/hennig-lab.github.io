@@ -8,7 +8,7 @@ permalink: /join/
 {{ site.baseurl }}/assets/images/email.png
 {% endcapture %}
 
-We are actively recruiting Postdocs, Research Scientists, and PhD students interested in computational neuroscience and learning. We are committed to building an inclusive workplace that prizes open communication, teamwork, and curiosity.
+We are seeking Postdocs, Research Scientists, and PhD students interested in computational neuroscience and learning. We are committed to building an inclusive workplace that prizes open communication, teamwork, and curiosity.
 
 ## Postdocs and Research Scientists
 

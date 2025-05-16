@@ -12,6 +12,18 @@
   #   summary: ""
 2025:
   -
+    title: "A theory of brain-computer interface learning via low-dimensional control"
+    authors: "Menendez JA, <b>Hennig JA</b>, Golub MD, Oby ER, Sadtler PT, Batista AP, Chase SM, Yu BM, Latham PE"
+    journal: "eLife"
+    volume: ""
+    year: 2025
+    paper_url: "https://elifesciences.org/reviewed-preprints/106309v1"
+    code_url: ""
+    short_name: "Menendez2025"
+    imagetype: png
+    briefly: "Primate motor systems show remarkable flexibility, exemplified by their ability to learn brain-computer interface (BCI) control---a novel motor behavior. And yet some BCI tasks are harder to learn than others. We propose a theory where learning occurs via a re-aiming strategy in a low-dimensional subspace of task-relevant inputs. This theory unifies findings across BCI tasks, makes testable predictions, and links learning to biological constraints on neural activity."
+    summary: ""
+  -
     title: "Prospective contingency explains behavior and dopamine signals during associative learning"
     authors: "Qian, L*, Burrell, M*, <b>Hennig, JA</b>, Matias, S, Murthy, VN, Gershman, SJ, & Uchida, N"
     journal: "Nature Neuroscience"
@@ -37,18 +49,6 @@
     press_url: "https://engineering.cmu.edu/news-events/news/2024/03/21-honoring-cohon.html"
     briefly: "How do we learn new behaviors without disrupting previously learned ones? Using a brain-computer interface (BCI) paradigm, we found that learning a new task altered the neural activity used to perform familiar tasks. This \"memory trace\" did not interfere with the performance of familiar tasks, suggesting a possible mechanism for how we learn new behaviors without impacting previously learned ones."
     summary: "How are we able to learn new behaviors without disrupting previously learned ones? To understand how the brain achieves this, we used a brain-computer interface (BCI) learning paradigm, which enables us to detect the presence of a memory of one behavior while performing another. We found that learning to use a new BCI map altered the neural activity that monkeys produced when they returned to using a familiar BCI map, in a way that was specific to the learning experience. That is, learning left a “memory trace.” This memory trace co-existed with proficient performance under the familiar map, primarily by altering dimensions of neural activity that did not impact behavior. Such a memory trace could provide the neural underpinning for the joint learning of multiple motor behaviors without interference."
-  -
-    title: "A theory of brain-computer interface learning via low-dimensional control"
-    authors: "Menendez JA, <b>Hennig JA</b>, Golub MD, Oby ER, Sadtler PT, Batista AP, Chase SM, Yu BM, Latham PE"
-    journal: "bioRxiv"
-    volume: ""
-    year: 2024
-    paper_url: "https://www.biorxiv.org/content/10.1101/2024.04.18.589952v1"
-    code_url: ""
-    short_name: ""
-    imagetype: png
-    briefly: ""
-    summary: ""
 2023:
   -
     title: "Emergence of belief-like representations through reinforcement learning"
@@ -56,8 +56,8 @@
     journal: "PLOS Computational Biology"
     volume: "19 (9): e1011067"
     year: 2023
-    paper_url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011067
-    code_url: https://github.com/mobeets/value-rnn-beliefs
+    paper_url: "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011067"
+    code_url: "https://github.com/mobeets/value-rnn-beliefs"
     short_name: Hennig2023
     imagetype: png
     briefly: "Animals are thought to predict rewards using reinforcement learning (RL). In environments with hidden states, animals may require \"beliefs,\" or probabilistic estimates of the hidden states. We show that such belief-like representations emerge in recurrent neural networks (RNN) trained to perform RL in environments with hidden states."
@@ -69,7 +69,7 @@
     journal: "Neuron"
     volume: "109 (23), 3720-3735"
     year: 2021
-    paper_url: https://www.cell.com/neuron/fulltext/S0896-6273(21)00677-2
+    paper_url: "https://www.cell.com/neuron/fulltext/S0896-6273(21)00677-2"
     short_name: Hennig2021b
     imagetype: png
     briefly: "In this perspective, we consider the idea that learning in the brain can be described in terms of optimization, similar to learning in artificial neural networks (ANNs). We highlight three key features of how neural population changes with learning that differ from ANNs, suggesting refinements to this optimization view."
@@ -106,7 +106,7 @@
     journal: "Proceedings of the National Academy of Sciences"
     volume: "116 (30), 15210-15215"
     year: 2019
-    paper_url: https://www.pnas.org/content/116/30/15210.short
+    paper_url: "https://www.pnas.org/content/116/30/15210.short"
     short_name: Oby2019
     imagetype: png
     briefly: "We establish that new neural activity patterns emerge with learning, providing evidence that the formation of new patterns of neural population activity can underlie the learning of new skills."
@@ -118,10 +118,10 @@
     journal: "eLife"
     volume: "7, e36774"
     year: 2018
-    paper_url: https://elifesciences.org/articles/36774
+    paper_url: "https://elifesciences.org/articles/36774"
     short_name: Hennig2018
     imagetype: png
-    code_url: https://github.com/mobeets/neural-redundancy-elife2018
+    code_url: "https://github.com/mobeets/neural-redundancy-elife2018"
     briefly: "Millions of neurons in the brain control the activity of tens of muscles in the arm, meaning neural activity is redundant. We compared various hypotheses for how the brain deals with this redundancy by recording in primary motor cortex while subjects performed a brain-computer interface task."
     summary: "Millions of neurons drive the activity of hundreds of muscles, meaning many different neural population activity patterns could generate the same movement. Studies have suggested that these redundant (i.e. behaviorally equivalent) activity patterns may be beneficial for neural computation. However, it is unknown what constraints may limit the selection of different redundant activity patterns. We leveraged a brain-computer interface, allowing us to define precisely which neural activity patterns were redundant. Rhesus monkeys made cursor movements by modulating neural activity in primary motor cortex. We attempted to predict the observed distribution of redundant neural activity. Principles inspired by work on muscular redundancy did not accurately predict these distributions. Surprisingly, the distributions of redundant neural activity and task-relevant activity were coupled, which enabled accurate predictions of the distributions of redundant activity. This suggests limits on the extent to which redundancy may be exploited by the brain for computation."
 2017:
@@ -131,11 +131,11 @@
     journal: "arXiv"
     volume: "arXiv:1711.07050"
     year: 2017
-    paper_url: https://arxiv.org/abs/1711.07050
+    paper_url: "https://arxiv.org/abs/1711.07050"
     short_name: Hennig2017
     imagetype: png
-    code_url: https://github.com/mobeets/vrnn
-    demo: http://neural-synth.herokuapp.com/
+    code_url: "https://github.com/mobeets/vrnn"
+    demo: "http://neural-synth.herokuapp.com/"
     briefly: "We augment a neural network known as a variational autoencoder (VAE) to classify the observed data while also learning its latent representation. We show that when this network is combined with an LSTM and used to generate music, the network plays fewer incorrect notes than a standard VAE+LSTM."
     summary: "The variational autoencoder (VAE) is a popular probabilistic generative model. However, one shortcoming of VAEs is that the latent variables cannot be discrete, which makes it difficult to generate data from different modes of a distribution. Here, we propose an extension of the VAE framework that incorporates a classifier to infer the discrete class of the modeled data. To model sequential data, we can combine our Classifying VAE with a recurrent neural network such as an LSTM. We apply this model to algorithmic music generation, where our model learns to generate musical sequences in different keys. Most previous work in this area avoids modeling key by transposing data into only one or two keys, as opposed to the 10+ different keys in the original music. We show that our Classifying VAE and Classifying VAE+LSTM models outperform the corresponding non-classifying models in generating musical samples that stay in key. This benefit is especially apparent when trained on untransposed music data in the original keys."
 2015:
@@ -145,7 +145,7 @@
     journal: "Journal of Neuroscience"
     volume: "35 (28), 10212-10216"
     year: 2015
-    paper_url: https://www.jneurosci.org/content/35/28/10212.short
+    paper_url: "https://www.jneurosci.org/content/35/28/10212.short"
     short_name: Katz2015
     imagetype: png
     briefly: "We compare the time-varying improvements in sensitivity during motion discrimination tasks in 2D and 3D, and find that the two are remarkably similar, however with a lower signal-to-noise ratio in 3D."
@@ -157,7 +157,7 @@
     journal: "Journal of Neuroscience"
     volume: "33 (6), 2254-2267"
     year: 2013
-    paper_url: https://www.jneurosci.org/content/33/6/2254.short
+    paper_url: "https://www.jneurosci.org/content/33/6/2254.short"
     short_name: Meister2013
     imagetype: png
     briefly: "We show that cells in the lateral intraparietal area (LIP) have firing activity that simultaneously carries decision signals and decision-irrelevant sensory signals. We conclude that LIP cells show a broader range of response motifs than previously considered."
