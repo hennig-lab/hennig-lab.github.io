@@ -1,33 +1,38 @@
 
 pi:
 - name: "Jay Hennig, PhD"
-  position: "Assistant Professor"
-  affiliation: "Department of Neuroscience, Baylor College of Medicine"
+  affiliation: "Assistant Professor in the Department of Neuroscience, Baylor College of Medicine"
+  bio: ""
   scholar_url: "https://scholar.google.com/citations?user=Tyl65TEAAAAJ&hl=en"
   image_path: "jay.jpg"
 
 ras:
 - name: "Mahliya Dolan"
   image_path: "mahliya.jpg"
-  bio: "Undergraduate student at Rice University majoring in Applied Math and Cognitive Science, with a minor in Creative Writing"
+  bio: "Mahliya is an undergraduate student at Rice University majoring in Applied Math and Cognitive Science, with a minor in Creative Writing."
   type: "RA"
   url: ""
 
 postdocs:
-- name: "Your Name Here!"
-  image_path: "dog1.png"
-  # image_path_moustache: "static/images/people/jhennig2.jpg"
-  bio: "<i>Interests: </i> Meta-learning; Reinforcement Learning; Probabilistic representations; Dopamine activity; Motor control; Machine Learning tools for analyzing neural population activity...? <a href='/join'>Join the lab!</a>"
+- name: "Hung-Yun Lu, PhD"
+  image_path: "hung-yun.jpg"
+  bio: "Hung-Yun is a postdoctoral associate who loves cats, long hikes, and exploring new places. Outside the lab, he enjoys reading and daydreaming about his next travel destination."
   type: "Postdoc"
   url: ""
+# - name: "Your Name Here!"
+#   image_path: "dog1.png"
+#   # image_path_moustache: "static/images/people/jhennig2.jpg"
+#   bio: "<i>Interests: </i> Meta-learning; Reinforcement Learning; Probabilistic representations; Dopamine activity; Motor control; Machine Learning tools for analyzing neural population activity...? <a href='/join'>Join the lab!</a>"
+#   type: "Postdoc"
+#   url: ""
 
 grad_students:
-- name: "Or Here?"
-  image_path: "cat1.png"
-  # image_path_moustache: "static/images/people/jhennig2.jpg"
-  bio: "<i>Interests: </i> Meta-learning; Reinforcement Learning; Probabilistic representations; Dopamine activity; Motor control; Machine Learning tools for analyzing neural population activity...? <a href='/join'>Join the lab!</a>"
-  type: "PhD student"
-  url: ""
+# - name: "Or Here?"
+#   image_path: "cat1.png"
+#   # image_path_moustache: "static/images/people/jhennig2.jpg"
+#   bio: "<i>Interests: </i> Meta-learning; Reinforcement Learning; Probabilistic representations; Dopamine activity; Motor control; Machine Learning tools for analyzing neural population activity...? <a href='/join'>Join the lab!</a>"
+#   type: "PhD student"
+#   url: ""
 
 affiliated:
 # - name: "Prof. Agustin Gutierrez Galvez (on sabbatical)"
