@@ -15,7 +15,7 @@ layout: default-wide
 </div> -->
 
 <br>
-We are a computational neuroscience lab interested in how animals and humans learn. Whether it's learning a new sport, a new song, or a new language, learning requires coordinated changes in the activity of billions of neurons throughout the brain. To understand this process, we use ideas and tools from machine learning, artificial intelligence, and statistics to reason about changes in neural population activity during learning.
+We are a computational neuroscience lab interested in how populations of neurons support learning and behavior. From learning a new sport, to playing a game, or talking to a friend, these behaviors all require coordinated changes in the activity of billions of neurons throughout the brain. To understand this process, we use ideas and tools from machine learning, artificial intelligence, and statistics to reason about neural population activity during behavior.
 <br><br>
 
 <details>

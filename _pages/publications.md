@@ -29,7 +29,7 @@ permalink: /publications/
     <a href="{{ paper.code_url }}" class="paper-url">code</a>
     {% endif %}
     {% if paper.short_name != nil and paper.short_name != '' %}
-    <a href="{{ site.baseurl }}/assets/pdfs/papers/{{ paper.short_name }}.pdf" class="paper-url">pdf</a>
+    <a href="{{ site.baseurl }}/assets/pdf/papers/{{ paper.short_name }}.pdf" class="paper-url">pdf</a>
     {% endif %}
     <div class="paper-content">
     {% if paper.short_name != nil and paper.short_name != '' %}
