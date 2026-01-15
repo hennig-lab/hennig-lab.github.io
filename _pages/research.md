@@ -14,7 +14,7 @@ Our lab's goal is to understand how animals and people can use the same set of n
 
 We have human patients perform a variety of different tasks, spanning multiple cognitive, sensory, and motor domains. Tasks include video games like Pacman as well as classic psychophysics tasks.
 
-Alongside this, we conduct __24/7 recordings of spiking activity in human hippocampus and prefrontal cortex across multiple days__.
+Alongside this, we conduct __24/7 recordings of spiking activity in human hippocampus and cortex across multiple days__.
 
 <img src="{{ site.baseurl }}/assets/images/papers/subspace.png" width="500px">
 
