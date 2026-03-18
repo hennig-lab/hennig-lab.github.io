@@ -23,7 +23,7 @@ permalink: /people/
 	    	<img src="{{ image_dir }}/{{ person.image_path }}" class="person-item-img" />
 	    </div>
 	    <span class="person-item-bio">{{ person.affiliation }}</span>
-	    <span class="person-item-bio">{{ person.bio }}</span>
+	    <p class="person-item-bio">{{ person.bio }}</p>
 	    <div class="person-contact-buttons">
 			<a href="{{ site.baseurl }}/assets/pdf/cv.pdf" class="contact-button no-print"><img src="{{ site.baseurl }}/assets/images/icons/icon-cv.png" width="12px;">&nbsp; CV</a>
 			<a href="{{ person.scholar_url }}" class="contact-button no-print"><img src="{{ site.baseurl }}/assets/images/icons/icon-scholar.png" width="20px;">&nbsp; Scholar</a>
@@ -51,7 +51,7 @@ permalink: /people/
 	    <div style="float: left;">
 	    	<img src="{{ image_dir }}/{{ person.image_path }}" class="person-item-img" />
 	    </div>
-	    <span class="person-item-bio">{{ person.bio }}</span>
+	    <p class="person-item-bio">{{ person.bio }}</p>
 	    <div style="float: none; clear: both;"></div>
 	  </li>
 	{% endfor %}
@@ -76,7 +76,13 @@ permalink: /people/
 	    <div style="float: left;">
 	    	<img src="{{ image_dir }}/{{ person.image_path }}" class="person-item-img" />
 	    </div>
-	    <span class="person-item-bio">{{ person.bio }}</span>
+	    <p class="person-item-bio">
+		    <span class="bio-short">{{ person.bio }}</span>
+		    {% if person.bio_long and person.bio_long != "" %}
+		    <span class="bio-long" style="display: none;">{{ person.bio_long }}</span>
+		    <a href="#" class="bio-toggle" onclick="event.preventDefault(); var s=this.parentElement.querySelector('.bio-short'), l=this.parentElement.querySelector('.bio-long'), e=l.style.display!=='none'; s.style.display=e?'':'none'; l.style.display=e?'none':''; this.textContent=e?'[+]':'[-]';">[+]</a>
+		    {% endif %}
+	    </p>
 	    <div style="float: none; clear: both;"></div>
 	  </li>
 	{% endfor %}
@@ -136,21 +142,18 @@ permalink: /people/
 <div class="resume-item">
 	<ul class="person-item-list">
 	{% for person in site.data.people.alumni %}
-	  <li class="person-item">
-	  	<!-- <span class="person-item-name"> -->
+	  <li class="">
 	    {% if person.url and person.url != "" %}
 	    	<a href="{{ person.url }}">{{ person.name }}</a>
 	    {% else %}
-	    	{{ person.name }}
+	    	<b>{{ person.name }}</b>
 	    {% endif %}
-	    {{ person.affiliation }}
-	    <!-- </span> -->
+	    - {{ person.type }} ({{ person.year }})
 	  </li>
 	{% endfor %}
 	</ul>
 </div>
 {% endif %}
-
 
 <!-- <div class="page-header">
 	{% for person in site.data.people.pi %}

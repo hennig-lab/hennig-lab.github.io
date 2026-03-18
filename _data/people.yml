@@ -1,49 +1,71 @@
 
 pi:
 - name: "Jay Hennig, PhD"
-  affiliation: "Assistant Professor in the Department of Neuroscience, Baylor College of Medicine"
+  affiliation: "Assistant Professor in the Department of Neuroscience, Baylor College of Medicine (BCM)"
   bio: ""
   scholar_url: "https://scholar.google.com/citations?user=Tyl65TEAAAAJ&hl=en"
-  image_path: "jay.jpg"
+  image_path: "jay.jpeg"
 
 ras:
-- name: "Mahliya Dolan"
-  image_path: "mahliya.jpg"
-  bio: "Mahliya is an undergraduate student at Rice University majoring in Applied Math and Cognitive Science, with a minor in Creative Writing."
+- name: "Mani Puram"
+  image_path: "mani.jpeg"
+  bio: "Mani is an undergraduate student at Rice University majoring in Computational and Applied Mathematics and Statistics."
   type: "RA"
   url: ""
 
 postdocs:
 - name: "Hung-Yun Lu, PhD"
-  image_path: "hung-yun.jpg"
-  bio: "Hung-Yun is a postdoctoral associate who loves cats, long hikes, and exploring new places. Outside the lab, he enjoys reading and daydreaming about his next travel destination."
+  image_path: "hung-yun.jpeg"
+  bio: "Hung-Yun is a postdoctoral associate in the Department of Neuroscience at BCM who loves cats, long hikes, and exploring new places. Outside the lab, he enjoys reading and daydreaming about his next travel destination."
   type: "Postdoc"
   url: ""
 # - name: "Your Name Here!"
 #   image_path: "dog1.png"
-#   # image_path_moustache: "static/images/people/jhennig2.jpg"
+#   # image_path_moustache: "static/images/people/jhennig2.jpeg"
 #   bio: "<i>Interests: </i> Meta-learning; Reinforcement Learning; Probabilistic representations; Dopamine activity; Motor control; Machine Learning tools for analyzing neural population activity...? <a href='/join'>Join the lab!</a>"
 #   type: "Postdoc"
 #   url: ""
 
 grad_students:
+- name: "Rachel Utama"
+  image_path: "rachel-utama.jpeg"
+  bio: "Rachel is a PhD student in the Quantitative and Computational Biosciences program at BCM. Her current research integrates experimental and computational approaches to understand the computations underlying healthy cognition, with the goal of informing therapies for neurological and neuropsychiatric conditions. In her free time, Rachel enjoys traveling, creative writing, getting outdoors, and perfecting her Ninja Creami creations."
+  bio_long: "Rachel is a PhD student in the Quantitative and Computational Biosciences program at Baylor College of Medicine. She graduated from Northeastern University in Boston with a B.S. in Data Science and Behavioral Neuroscience in 2025. As an undergraduate, she worked in biotech on both the research and business sides of therapeutics for neurodegenerative diseases. Her current research integrates experimental and computational approaches to understand the computations underlying healthy cognition, with the goal of informing therapies for neurological and neuropsychiatric conditions. In her free time, Rachel enjoys traveling, creative writing, getting outdoors, and perfecting her Ninja Creami creations."
+  type: "PhD student"
+  url: ""
 # - name: "Or Here?"
 #   image_path: "cat1.png"
-#   # image_path_moustache: "static/images/people/jhennig2.jpg"
+#   # image_path_moustache: "static/images/people/jhennig2.jpeg"
 #   bio: "<i>Interests: </i> Meta-learning; Reinforcement Learning; Probabilistic representations; Dopamine activity; Motor control; Machine Learning tools for analyzing neural population activity...? <a href='/join'>Join the lab!</a>"
 #   type: "PhD student"
 #   url: ""
 
 affiliated:
 # - name: "Prof. Agustin Gutierrez Galvez (on sabbatical)"
-#   image_path: "static/images/people/agustin.jpg"
-#   image_path_moustache: "static/images/people/agustin2.jpg"
+#   image_path: "static/images/people/agustin.jpeg"
+#   image_path_moustache: "static/images/people/agustin2.jpeg"
 
 alumni:
+  - name: "Serena Liu"
+    type: "Rotation student"
+    year: 2025
+  - name: "Anna Wang"
+    type: "Rotation student"
+    year: 2025
+  - name: "Shubhom Bhattacharya"
+    type: "Rotation student"
+    year: 2025
+  - name: "Mahliya Dolan"
+    type: "Undergrad RA"
+    year: "2024-2025"
+  - name: "Kunpeng Yu"
+    type: "Rotation student"
+    year: 2024
+
 # - name: "Xiao Zhou"
 #   affiliation: "PhD (Trexquant, New York NY)"
-#   image_path: "static/images/people/xiao.jpg"
-#   image_path_moustache: "static/images/people/xiao2.jpg"
+#   image_path: "static/images/people/xiao.jpeg"
+#   image_path_moustache: "static/images/people/xiao2.jpeg"
 #   bio: "Neural mechanisms of skill learning"
 #   type: "PhD student"
 #   url: ""
