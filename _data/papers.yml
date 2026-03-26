@@ -10,6 +10,19 @@
   #   imagetype: png
   #   briefly: ""
   #   summary: ""
+2026:
+  -
+    title: "Phasic dopamine drives conditioned responding beyond its role in learning"
+    authors: "<b>Hennig, JA</b>, Burrell M, Uchida, N, & Gershman, SJ"
+    journal: "bioRxiv"
+    volume: ""
+    year: 2026
+    paper_url: "https://www.biorxiv.org/content/10.64898/2026.03.25.714259v1"
+    code_url: ""
+    short_name: "Hennig2026"
+    imagetype: png
+    briefly: "Animals learn to respond to neutral stimuli paired with rewards. Temporal Difference (TD) learning suggests animals learn to predict future reward value, updated via reward prediction errors (RPE) signaled by dopamine neurons. Traditionally, conditioned responses are thought to reflect value. However, here we use data analysis and modeling to argue that conditioned responding reflects dopamine RPEs. This suggests that in addition to its role in learning, dopamine also directly influences conditioned responding."
+    summary: ""
 2025:
   -
     title: "A theory of brain-computer interface learning via low-dimensional control"
